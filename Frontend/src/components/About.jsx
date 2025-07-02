@@ -1,7 +1,6 @@
 import jayantImage from "../assets/jayant.jpg";
 import sindhuImage from "../assets/sindhu.jpg";
-import pragyaImage from "../assets/pragya.jpg";
-import kritikaImage from "../assets/kritika.jpg";
+import anshuImage from "../assets/Anshu.jpg";
 import akshaImage from "../assets/Aksha.jpg";
 import { motion } from "framer-motion";
 
@@ -44,9 +43,9 @@ const About = () => {
       description:
         "Created core UI elements ensuring smooth interactions, responsive design, and a consistent visual experience across devices.",
       delay: 0.4,
-      linkedin: "https://www.linkedin.com/in/pragya-sharma-542a23244/",
-      github: "https://github.com/PragyaKumari2203",
-      imageUrl: pragyaImage,
+      linkedin: "https://www.linkedin.com/in/anshu-kumari-89bb21258/",
+      github: "https://github.com/Anshu-Kumari108",
+      imageUrl: anshuImage,
     },
 
   ];
