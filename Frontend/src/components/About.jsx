@@ -39,7 +39,7 @@ const About = () => {
       imageUrl: akshaImage,
     },
     {
-      name: "Pragya Kumari",
+      name: "Anshu Kumari",
       role: "Frontend Developer",
       description:
         "Created core UI elements ensuring smooth interactions, responsive design, and a consistent visual experience across devices.",
@@ -48,16 +48,7 @@ const About = () => {
       github: "https://github.com/PragyaKumari2203",
       imageUrl: pragyaImage,
     },
-    {
-      name: "Kumari Kritika Jha",
-      role: "UX/UI Designer",
-      description:
-        "Crafts intuitive, accessible interfaces by blending design thinking with technical precision for seamless user experiences",
-      delay: 0.5,
-      linkedin: "https://www.linkedin.com/in/kritika-jha-kkj04221506/",
-      github: "https://github.com/Kkritikajha",
-      imageUrl: kritikaImage,
-    },
+
   ];
 
   const LinkedInIcon = () => (
@@ -221,7 +212,7 @@ const About = () => {
             Our <span style={{ color: "#d8b4fe" }}>Expert</span> Team
           </motion.h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {teamMembers.map((member, index) => (
               <motion.div
                 key={index}
